@@ -1,0 +1,1 @@
+directory for encapsulating things testers need
