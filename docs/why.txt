@@ -1,0 +1,1 @@
+directory for encapsulating documentation on the project
