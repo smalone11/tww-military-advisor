@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="view">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TWW Military Advisor</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-main.css" rel="stylesheet">
+</head>
+<body class="container-fluid">
+
+  <header class="row">
+
+    <div class="col-xs-6 col-md-6">
+
+      <h1>TWW Military Advisor</h1>
+
+    </div>
+
+    <div id="campaign" class="col-xs-6 col-md-6" align="right">
+
+      <img class="campaign-picture" src="images/blank-profile-picture.png" alt="campaign Picture" height="35" width="35">
+
+      <h4>Campaign</h4>
+
+    </div>
+
+  </header>
+
+  <!-- Displays HTML from other files -->
+  <div ui-view></div>
+
+  <!-- Footsies -->
+  <footer class="row">
+
+    <div class="col-xs-6 col-xs-md footer">
+
+      <h4 class="footer-created">Created by RBP</h4>
+
+    </div>
+
+    <div class="col-xs-6 col-xs-md footer" align="right">
+
+      <h4 class="footer-version" >Version 0.0.0</h4>
+
+    </div>
+
+  </footer>
+
+  <script src="js/libs/angular.min.js"></script>
+  <script src="js/libs/angular-ui-router.min.js"></script>
+  <script src="js/libs/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
