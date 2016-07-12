@@ -1,0 +1,64 @@
+{
+    "name": "tww-military-advisor",
+    "private": true,
+    "version": "v0.0.0-dev",
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "The Total War: Warhammer Military Advisor is a comparative analysis tool for making data-driven strategy decisions.",
+    "keywords": [
+        "total war",
+        "warhammer",
+        "strategy games"
+    ],
+    "homepage": "https://www.github.com/realbiasedprogramming/tww-military-advisor",
+    "bugs": "https://github.com/realbiasedprogramming/tww-military-advisor/issues",
+    "email": "tww.military.advisor@gmail.com",
+    "author": "Real Biased Programming <realbiasedprogramming@gmail.com> (https://realbiasedprogramming.blogspot.com/)",
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/realbiasedprogramming/tww-military-advisor"
+    },
+    "preferGlobal": false,
+    "devDependencies": {
+        "bower": "latest",
+        "glob": "latest",
+        "eslint": "latest",
+        "jsonlint": "latest"
+    },
+    "scripts": {
+        "lint": "node dev/bin/lint.js"
+    },
+    "eslintConfig": {
+        "ecmaVersion": 5,
+        "sourceType": "script",
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "extends": "eslint:recommended",
+        "rules": {
+            "no-console": "warn",
+            "indent": [
+                "error",
+                4
+            ],
+            "no-param-reassign": "error",
+            "no-magic-numbers": "error",
+            "brace-style": [
+                "error",
+                "1tbs"
+            ],
+            "curly": [
+                "error",
+                "all"
+            ],
+            "comma-style": [
+                "error",
+                "last"
+            ],
+            "comma-dangle": [
+                "error",
+                "never"
+            ]
+        }
+    }
+}
