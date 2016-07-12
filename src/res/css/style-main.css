@@ -1,0 +1,189 @@
+html,
+body,
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background: #000000;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer.row {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+h1 {
+  margin-left: 5px;
+  color: #760404;
+}
+
+h4 {
+  display: inline-block;
+  vertical-align: middle;
+
+  margin-right: 5px;
+
+  color: #dd9d19;
+}
+
+h4.footer-created,
+h4.footer-version {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+button {
+  height: auto;
+  width: auto;
+}
+
+#campaign {
+  margin-top: 2px;
+}
+
+#units,
+#addComparison {
+  margin: 0;
+}
+
+#units {
+  border-bottom: 2px solid #808080;
+}
+
+#addComparison {
+  margin: 5px;
+}
+
+#empire:hover {
+  background-color: #7b0505;
+  color: #d2b45f;
+}
+
+#dwarves:hover {
+  background-color: #185a8e;
+  color: #ffff14;
+}
+
+#greenskins:hover {
+  background-color: #834325;
+  color: #1F1B17;
+}
+
+#vampires:hover {
+  background-color: #42426F;
+  color: #cc0000;
+}
+
+#chaos:hover {
+  background-color: #5d6577;
+  color: #e65c00;
+}
+
+.left-race {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-right: 1px solid #808080;
+  border-bottom: 2px solid #808080;
+}
+
+.right-race {
+  padding-top: 1px;
+  padding-bottom: 4px;
+
+  border-left: 1px solid #808080;
+  border-bottom: 2px solid #808080;
+}
+
+.left-race-symbol {
+  margin-left: 5px;
+}
+
+.right-race-symbol {
+  margin-right: 5px;
+  text-align: right;
+}
+
+.left-units {
+  padding: 3px;
+
+  border-right: 1px solid #808080;
+}
+
+.right-units {
+  padding: 3px;
+
+  border-left: 1px solid #808080;
+}
+
+.units-card,
+.units-add {
+  margin: 0;
+}
+
+.race-select {
+  position: relative;
+  display: inline-block;
+}
+
+.race-button {
+  height: 40px;
+
+  background-color: #ffffff;
+  border: none;
+
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.race-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.race-content h2 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.race-content h2:hover {
+  background-color: #f1f1f1
+}
+
+.show {
+  display:block;
+}
+
+.footer {
+  padding: 0 5px;
+}
