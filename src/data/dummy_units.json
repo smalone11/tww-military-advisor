@@ -1,0 +1,278 @@
+{
+    "factions":{
+        
+        "empire":{ 
+            "units":[
+                {
+                    "unit_name": "Swordsmen",
+                    "unit_type": "Sword Infantry",
+                    "base_cost": 400,
+                    "base_upkeep_cost": 100,
+                    "hit_points": 3480,
+                    "unit_size": 60,
+                    "model_hit_points": 58,
+                    "armour": 30,
+                    "shield": true,
+                    "large_shield": false,
+                    "leadership": 60,
+                    "speed": 31,
+                    "melee_attack": 32,
+                    "melee_defence": 30,
+                    "weapon_strength": 28,
+                    "melee_armour_piercing": 6,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 16,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour_piercing": null,
+                    "reload_time": null,
+                    "shots_per_volley": null ,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [ 
+                        "Shielded"
+                    ],
+                    "abilities": [
+                        "Hide"
+                    ]
+                },
+                {
+                    "unit_name": "Crossbowmen",
+                    "unit_type": "Missile Infantry",
+                    "base_cost": 525,
+                    "base_upkeep_cost": 131,
+                    "hit_points": 2610,
+                    "unit_size": 45,
+                    "model_hit_points": 58,
+                    "armour": 20,
+                    "shield": false,
+                    "large_shield": false,
+                    "leadership": 50,
+                    "speed": 33,
+                    "melee_attack": 14,
+                    "melee_defence": 15,
+                    "weapon_strength": 24,
+                    "melee_armour_piercing": 2,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 4,
+                    "ammuniation": 24,
+                    "range": 155,
+                    "missile_damage": 21,
+                    "ranged_armour-Piercing": 4,
+                    "reload_times": 9.9,
+                    "shots_per_volley": 1,
+                    "explosive_base_damage": 0,
+                    "explosive_armour_piercing_damage": 0,
+                    "unit_highlights": [
+                        "Good Range"
+                    ],
+                    "abilities": [
+                        "Hide"
+                    ]
+                },
+                {
+                    "unit_name": "Reiksguard",
+                    "unit_type": "Shock Cavalry",
+                    "base_cost": 1200,
+                    "base_upkeep_cost": 300,
+                    "hit_points": 3120,
+                    "unit_size": 30,
+                    "model_hit_points": 104,
+                    "armour": 120,
+                    "shield": false,
+                    "large_shield": false,
+                    "leadership": 70,
+                    "speed": 66,
+                    "melee_attack": 32,
+                    "melee_defence": 28,
+                    "weapon_strength": 40,
+                    "melee_armour_piercing": 10,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 62,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour-Piercing": null,
+                    "reload_times": null,
+                    "shots_per_volley": null,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [
+                        "Armoured and Shielded",
+                        "Anti-Infantry"
+                    ],
+                    "abilities": [
+                        "Hide"
+                    ]
+                }
+            ]
+        },            
+        "dwarves": {
+            "units": [
+                {
+                    "unit_name": "Dwarf Warriors",
+                    "unit_type": "Axe Infantry",
+                    "base_cost": 475,
+                    "base_upkeep_cost": 119,
+                    "hit_points": 3150,
+                    "unit_size": 50,
+                    "model_hit_points": 63,
+                    "armour": 80,
+                    "shield": true,
+                    "large_shield": false,
+                    "leadership": 70,
+                    "speed": 30,
+                    "melee_attack": 22,
+                    "melee_defence": 36,
+                    "weapon_strength": 28,
+                    "melee_armour_piercing": 5,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 9,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour-Piercing": null,
+                    "reload_times": null,
+                    "shots_per_volley": null,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [
+                        "Armoured and Shielded",
+                        "Charge Defence Against Large Foes"
+                    ],
+                    "abilities": [
+                        "Magic Resistance 25%", 
+                        "Charge Defence vs. Large",
+                        "Hide"
+                    ]
+                }
+            ]
+        },
+        "greenskins": {
+            "units": [
+                {
+                    "unit_name": "Orc Boyz",
+                    "unit_type": "Sword Infantry",
+                    "base_cost": 450,
+                    "base_upkeep_cost": 112,
+                    "hit_points": 4020,
+                    "unit_size": 60,
+                    "model_hit_points": 67,
+                    "armour": 30,
+                    "shield": true,
+                    "large_shield": false,
+                    "leadership": 60,
+                    "speed": 31,
+                    "melee_attack": 26,
+                    "melee_defence": 26,
+                    "weapon_strength": 34,
+                    "melee_armour_piercing": 8,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 22,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour-Piercing": null,
+                    "reload_times": null,
+                    "shots_per_volley": null,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [
+                        "Shielded"
+                    ],
+                    "abilities": [
+                        "Hide"
+                    ]
+                }
+            ]
+        },
+        "vampire_counts": {
+            "units": [
+                {
+                    "unit_name": "Zombies",
+                    "unit_type": "Sword Infantry",
+                    "base_cost": 150,
+                    "base_upkeep_cost": 50,
+                    "hit_points": 4320,
+                    "unit_size": 80,
+                    "model_hit_points": 54,
+                    "armour": 15,
+                    "shield": false,
+                    "large_shield": false,
+                    "leadership": 30,
+                    "speed": 23,
+                    "melee_attack": 5,
+                    "melee_defence": 5,
+                    "weapon_strength": 18,
+                    "melee_armour_piercing": 2,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 3,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour-Piercing": null,
+                    "reload_times": null,
+                    "shots_per_volley": null,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [
+                        "Expendable"
+                    ],
+                    "abilities": [
+                        "Causes Fear",
+                        "Hide",
+                        "Undead",
+                        "Crumbling",
+                        "Disintegrating"
+                    ]
+                }
+            ]
+        },
+        "warriors_of_chaos": {
+            "units": [
+                {
+                    "unit_name": "Chaos Marauders",
+                    "unit_type": "Axe Infantry",
+                    "base_cost": 400,
+                    "base_upkeep_cost": 50,
+                    "hit_points": 3780,
+                    "unit_size": 60,
+                    "model_hit_points": 63,
+                    "armour": 15,
+                    "shield": true,
+                    "large_shield": false,
+                    "leadership": 56,
+                    "speed": 36,
+                    "melee_attack": 34,
+                    "melee_defence": 26,
+                    "weapon_strength": 28,
+                    "melee_armour_piercing": 6,
+                    "anti_large": 0,
+                    "anti_infantry": 0,
+                    "charge_bonus": 16,
+                    "ammuniation": null,
+                    "range": null,
+                    "missile_damage": null,
+                    "ranged_armour-Piercing": null,
+                    "reload_times": null,
+                    "shots_per_volley": null,
+                    "explosive_base_damage": null,
+                    "explosive_armour_piercing_damage": null,
+                    "unit_highlights": [
+                        "Shielded"
+                    ],
+                    "abilities": [
+                        "Hide"
+                    ]
+                }
+            ]
+        }
+    }
+}
